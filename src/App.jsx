@@ -1,11 +1,9 @@
+import { RouterProvider } from "react-router-dom"
+import { router } from "../src/routes"
 
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1>CrudClientes</h1>
-    </>
+    <RouterProvider router={router} />
   )
-}
-
-export default App
+};
